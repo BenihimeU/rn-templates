@@ -5,11 +5,15 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
   },
   "dependencies": {
+    "native-base": "^2.12.2",
     "react": "16.8.6",
-    "react-native": "0.60.0"
+    "react-native": "0.60.0",
+    "react-navigation": "^3.11.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.4",
