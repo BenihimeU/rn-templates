@@ -10,10 +10,9 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="search-bar ui segment">
+            <div className="search-bar">
                 <form onSubmit={this.OnFormSubmit} className="ui form">
                     <div className="field">
-                        <label className="">Video Search</label>
                         <input
                             placeholder={this.props.placeholder}
                             onChange={(e) => this.setState({ keyword: e.target.value })}
